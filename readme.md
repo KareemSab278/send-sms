@@ -48,14 +48,6 @@ You can POST to the API endpoint (e.g., from another PHP script, curl, Postman, 
 - `schedule` (optional): schedule time
 - `reference` (optional): reference string
 
-**Example using curl:**
-```bash
-curl -X POST "https://your-server/apweb2020/api/actions/service/send_sms.php" \
-     -d "api=1" \
-     -d "to=07123456789" \
-     -d "message=Hello from PHP!" \
-     -d "from=Coinadrink HQ"
-```
 
 **Response:**
 ```json
@@ -110,5 +102,3 @@ curl -X POST "https://your-server/apweb2020/api/actions/service/send_sms.php" \
 - All responses are JSON for easy integration.
 
 ---
-
-**For more examples or help extending the API, contact
